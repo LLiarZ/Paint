@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393939"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#292929">
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_paint1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="画笔"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/rb_paint2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="荧光笔"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"  />
+
+            <RadioButton
+                android:id="@+id/rb_rubber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="橡皮擦"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </RadioGroup>
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewpager2"
+            android:layout_below="@+id/rg2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            >
+        </androidx.viewpager.widget.ViewPager>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rg2"
+            android:id="@+id/view2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            >
+        </View>
+
+    </RelativeLayout>
+</LinearLayout>

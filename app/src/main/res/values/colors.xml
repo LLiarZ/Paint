@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="check_f">#DCDCDC</color>
+    <color name="check_t">#404040</color>
+    <color name="check_f2">#292929</color>
+    <color name="check_t2">#36648B</color>
+
+    <color name="Red">#FF0101</color>
+    <color name="Orange">#FA6C01</color>
+    <color name="Yellow">#FFE500</color>
+    <color name="Green">#00A206</color>
+    <color name="LightBlue">#03A9F4</color>
+    <color name="DarkBlue">#00315C</color>
+    <color name="Pink">#FF008C</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Grey">#686868</color>
+    <color name="Brown">#4E2700</color>
+</resources>
